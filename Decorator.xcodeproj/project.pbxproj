@@ -21,6 +21,9 @@
 		A4EDEABA191E172100C461EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EDEA9C191E172100C461EF /* UIKit.framework */; };
 		A4EDEAC2191E172100C461EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EDEAC0191E172100C461EF /* InfoPlist.strings */; };
 		A4EDEAC4191E172100C461EF /* DecoratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDEAC3191E172100C461EF /* DecoratorTests.m */; };
+		A4EDEAD8191E178E00C461EF /* UIImage+BaseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDEAD7191E178E00C461EF /* UIImage+BaseFilter.m */; };
+		A4EDEADB191E17EA00C461EF /* UIImage+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDEADA191E17EA00C461EF /* UIImage+Shadow.m */; };
+		A4EDEADE191E186800C461EF /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDEADD191E186800C461EF /* UIImage+Transform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		A4EDEABF191E172100C461EF /* DecoratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DecoratorTests-Info.plist"; sourceTree = "<group>"; };
 		A4EDEAC1191E172100C461EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4EDEAC3191E172100C461EF /* DecoratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorTests.m; sourceTree = "<group>"; };
+		A4EDEAD6191E178E00C461EF /* UIImage+BaseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BaseFilter.h"; sourceTree = "<group>"; };
+		A4EDEAD7191E178E00C461EF /* UIImage+BaseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BaseFilter.m"; sourceTree = "<group>"; };
+		A4EDEAD9191E17EA00C461EF /* UIImage+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Shadow.h"; sourceTree = "<group>"; };
+		A4EDEADA191E17EA00C461EF /* UIImage+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shadow.m"; sourceTree = "<group>"; };
+		A4EDEADC191E186800C461EF /* UIImage+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Transform.h"; sourceTree = "<group>"; };
+		A4EDEADD191E186800C461EF /* UIImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Transform.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				A4EDEAAE191E172100C461EF /* ViewController.m */,
 				A4EDEAB0191E172100C461EF /* Images.xcassets */,
 				A4EDEA9F191E172100C461EF /* Supporting Files */,
+				A4EDEAD6191E178E00C461EF /* UIImage+BaseFilter.h */,
+				A4EDEAD7191E178E00C461EF /* UIImage+BaseFilter.m */,
+				A4EDEAD9191E17EA00C461EF /* UIImage+Shadow.h */,
+				A4EDEADA191E17EA00C461EF /* UIImage+Shadow.m */,
+				A4EDEADC191E186800C461EF /* UIImage+Transform.h */,
+				A4EDEADD191E186800C461EF /* UIImage+Transform.m */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -249,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EDEAD8191E178E00C461EF /* UIImage+BaseFilter.m in Sources */,
 				A4EDEAAF191E172100C461EF /* ViewController.m in Sources */,
+				A4EDEADE191E186800C461EF /* UIImage+Transform.m in Sources */,
 				A4EDEAA9191E172100C461EF /* AppDelegate.m in Sources */,
+				A4EDEADB191E17EA00C461EF /* UIImage+Shadow.m in Sources */,
 				A4EDEAA5191E172100C461EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

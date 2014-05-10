@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIImage+Shadow.h
 //  Decorator
 //
 //  Created by 杨萧玉 on 14-5-10.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIImageView *imageView;
-
+@interface UIImage (Shadow)
+- (UIImage *) imageWithDropShadow;
 @end
